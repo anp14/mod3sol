@@ -7,6 +7,10 @@
 h1 {
     font-family: Brushstroke, fantasy;
     color: #000000;
+    margin: 0;
+    padding: 0;
+    font-family: 'Balsamiq Sans', cursive;
+
 }
 
 body {
@@ -20,15 +24,7 @@ p {
     margin: 0;
 }
 
-.container {
-    border: none;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
 
-}
 
 section {
     border: 1px solid black;
@@ -121,6 +117,11 @@ section {
   clear: both;
   margin-top: -30px;
 }
+a.navbar-brand{
+      margin: 0;
+    padding: 0;
+    font-family: 'Balsamiq Sans', cursive;
+}
 
 .nav-header {
   background-color: #FFFFFF;
@@ -142,4 +143,13 @@ hr {
 .item {
   color: white;
   font-size: 1.2em;
+}
+.container-fluid {
+    border: none;
+    margin-left: 30px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0px;
+
 }
